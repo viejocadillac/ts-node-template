@@ -8,8 +8,7 @@
     "dev:debug": "nodemon --config nodemon.json --inspect-brk src/app.ts",
     "build": "tsc",
     "test": "jest",
-    "test:coverage": "jest --collect-coverage",
-    "docs:build": "jsdoc -c jsdoc.json"
+    "test:coverage": "jest --collect-coverage"
   },
   "repository": {
     "type": "git",
@@ -18,7 +17,6 @@
   "keywords": [
     "node",
     "typescript",
-    "jsdoc",
     "jest",
     "nodemon"
   ],
