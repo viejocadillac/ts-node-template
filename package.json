@@ -1,0 +1,45 @@
+{
+  "name": "ts-node-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon --config nodemon.json src/app.ts",
+    "dev:debug": "nodemon --config nodemon.json --inspect-brk src/app.ts",
+    "build": "tsc",
+    "test": "jest",
+    "test:coverage": "jest --collect-coverage",
+    "docs:build": "jsdoc -c jsdoc.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/viejocadillac/ts-node-template.git"
+  },
+  "keywords": [
+    "node",
+    "typescript",
+    "jsdoc",
+    "jest",
+    "nodemon"
+  ],
+  "author": "Mathias Moreira",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/viejocadillac/ts-node-template/issues"
+  },
+  "homepage": "https://github.com/viejocadillac/ts-node-template#readme",
+  "devDependencies": {
+    "@babel/preset-typescript": "^7.14.5",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^16.4.10",
+    "@typescript-eslint/eslint-plugin": "^4.28.5",
+    "@typescript-eslint/parser": "^4.28.5",
+    "eslint": "^7.32.0",
+    "eslint-config-airbnb-typescript": "^12.3.1",
+    "eslint-plugin-import": "^2.23.4",
+    "nodemon": "^2.0.12",
+    "ts-jest": "^27.0.4",
+    "ts-node": "^10.1.0",
+    "typescript": "^4.3.5"
+  }
+}
